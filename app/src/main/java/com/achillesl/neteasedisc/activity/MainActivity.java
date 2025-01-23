@@ -40,10 +40,7 @@ import java.util.List;
 
 import static com.achillesl.neteasedisc.widget.DiscView.*;
 
-
-public class MainActivity extends AppCompatActivity implements IPlayInfo, View
-        .OnClickListener {
-
+public class MainActivity extends AppCompatActivity implements IPlayInfo, View.OnClickListener {
     private DiscView mDisc;
     private Toolbar mToolbar;
     private SeekBar mSeekBar;
